@@ -1,0 +1,5 @@
+﻿Yêu cầu chức năng thiết kế 
+1. Điểm. 
+2. Điểm tự động. 
+3. Tính toán kết quả. 
+4. Đọc các loại cờ chính.

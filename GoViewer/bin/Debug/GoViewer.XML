@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GoViewer</name>
+    </assembly>
+    <members>
+        <member name="F:GoViewer.Board.grid">
+            <summary>
+            Ma trận bàn cờ, lưu màu đen và trắng
+            </summary>
+        </member>
+        <member name="F:GoViewer.Board.Moves">
+            <summary>
+            Một bộ sưu tập các nước cờ đã được chơi
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:GoViewer.Board.Dead" -->
+        <member name="F:GoViewer.Board.Count">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:GoViewer.Board.Unions">
+            <summary>    
+            </summary>
+        </member>
+        <member name="P:GoViewer.Board.IsValid">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:GoViewer.Board.isKo">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:GoViewer.Board.#ctor">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:GoViewer.Board.clear">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:GoViewer.Board.getStone(System.Int32,System.Int32)">
+            <summary>
+            Trả về trạng thái ma trận bàn cờ
+            </summary>
+            <param name="i">sắp xếp ma trận</param>
+            <param name="j">Ma trận</param>
+            <returns></returns>
+        </member>
+        <member name="M:GoViewer.Board.setStone(System.Int32,System.Int32,System.Nullable{System.Boolean})">
+            <summary>
+            hoạt động con tiếp theo
+            </summary>
+            <param name="i">sắp xếp ma trận</param>
+            <param name="j">Ma trận</param>
+            <param name="isBlack">đen và trắng</param>
+        </member>
+        <member name="M:GoViewer.Board.remove(System.Int32,System.Int32,System.Collections.Generic.HashSet{GoViewer.Move},System.Nullable{System.Boolean})">
+            <summary>
+            Đề cập đến quân cờ đã chết, cập nhật cài đặt
+            </summary>
+            <param name="i">sắp xếp ma trận</param>
+            <param name="j">Ma trận</param>
+            <param name="dead">Tập hợp quân cờ chết hiện tại</param>
+            <param name="isBlack">đen và trắng</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:GoViewer.Board.qi(System.Int32,System.Int32)" -->
+        <member name="M:GoViewer.Board.connect(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Kết nối hai bộ quân cờ
+            </summary>
+            <param name="ai">Sắp xếp ma trận khối A</param>
+            <param name="aj">ma trận khối a</param>
+            <param name="bi">Sắp xếp ma trận khối B</param>
+            <param name="bj">ma trận khối b</param>
+        </member>
+        <member name="M:GoViewer.Board.Previous">
+            <summary>
+            Đặt bảng về trạng thái trước đó
+            </summary>
+        </member>
+        <member name="M:GoViewer.Board.Next">
+            <summary>
+            Đặt bàn cờ sang trạng thái tiếp theo
+            </summary>
+        </member>
+        <member name="M:GoViewer.Board.GotoStart">
+            <summary>
+            Xóa bảng và quay lại từ đầu
+            </summary>
+        </member>
+        <member name="T:GoViewer.MainForm">
+            <summary>
+            xử lý chuột, màn hình, v.v.
+            </summary>
+        </member>
+        <member name="M:GoViewer.MainForm.#ctor">
+            <summary>
+            Khởi tạo một bảng mới
+            </summary>
+        </member>
+        <member name="M:GoViewer.MainForm.itemQuit_Click(System.Object,System.EventArgs)">
+            <summary>
+            Mục menu thoát
+            </summary>
+        </member>
+        <member name="M:GoViewer.MainForm.drawStone(System.Drawing.Graphics,System.Int32,System.Int32,System.Nullable{System.Boolean})">
+            <summary>
+            画棋子
+            </summary>
+            <param name="g"></param>
+            <param name="i">hàng i</param>
+            <param name="j">Cột</param>
+            <param name="isBlack">Màu đen true， Màu trắng false, null trống</param>
+        </member>
+        <member name="M:GoViewer.MainForm.boardPanel_Resize(System.Object,System.EventArgs)">
+            <summary>
+            Thay đổi kích thước cửa sổ
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GoViewer.MainForm.boardPanel_MouseClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Phản hồi bàn cờ nhấp chuột
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GoViewer.MainForm.getMouse(System.Int32,System.Int32,System.Nullable{System.Boolean})">
+            <summary>
+            Kiểm tra xem tọa độ có nằm trong giới hạn của bàn cờ hay không
+            Nếu bạn đang chuyển đổi thành tọa độ ma trận bàn cờ và di chuyển
+            </summary>
+            <param name="p1">Bảng điều khiển bàn cờ</param>
+            <param name="p2">Bảng điều khiển bàn cờ</param>
+            <param name="turn">đen trắng hoặc trống rỗng</param>
+        </member>
+        <member name="M:GoViewer.MainForm.drawSquare(System.Drawing.Graphics,System.Int32,System.Int32,System.Nullable{System.Boolean})">
+            <summary>
+            
+            </summary>
+            <param name="g"></param>
+            <param name="i"></param>
+            <param name="j"></param>
+            <param name="isBlack"></param>
+        </member>
+        <member name="M:GoViewer.MainForm.boardPanel_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Di chuyển chuột trên bàn cờ
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GoViewer.MainForm.MainForm_Load(System.Object,System.EventArgs)">
+            <summary>
+            Khởi tạo sau khi cửa sổ được tải
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GoViewer.MainForm.drawImage">
+            <summary>
+            Vẽ các quân cờ vào bimap
+            </summary>
+        </member>
+        <member name="M:GoViewer.MainForm.btnMode_Click(System.Object,System.EventArgs)">
+            <summary>
+            Xóa bảng và hẹn giờ
+            Hiển thị thời gian của bản ghi cờ vua vừa được chơi hoặc tải từ một tệp
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:GoViewer.MainForm.aTimer" -->
+        <!-- Badly formed XML comment ignored for member "M:GoViewer.MainForm.timerView_Tick(System.Object,System.EventArgs)" -->
+        <member name="M:GoViewer.MainForm.btnFile_Click(System.Object,System.EventArgs)">
+            <summary>
+            Mở tệp và menu
+            Phân tích cú pháp một số tệp gib
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GoViewer.MainForm.ParseSinaFile(System.Windows.Forms.OpenFileDialog)">
+            <summary>
+            Phân tích
+            </summary>
+            <param name="dialog"></param>
+        </member>
+        <member name="M:GoViewer.MainForm.ParseEweiqiFile(System.Windows.Forms.OpenFileDialog)">
+            <summary>
+            Phân tích file cờ vua
+            </summary>
+            <param name="dialog"></param>
+        </member>
+        <member name="M:GoViewer.MainForm.DisplayEnd">
+            <summary>
+            kết thúc chương trình
+            </summary>
+        </member>
+        <member name="M:GoViewer.MainForm.btnPrevious_Click(System.Object,System.EventArgs)">
+            <summary>
+            Hành động nút trước đó
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GoViewer.MainForm.btnNext_Click(System.Object,System.EventArgs)">
+            <summary>
+            Hành động nút tiếp theo
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GoViewer.MainForm.btnStart_Click(System.Object,System.EventArgs)">
+            <summary>
+            Nút bắt đầu hoạt động
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GoViewer.MainForm.btnEnd_Click(System.Object,System.EventArgs)">
+            <summary>
+            nút kết thúc hành động
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:GoViewer.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GoViewer.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GoViewer.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:GoViewer.Move" -->
+        <member name="F:GoViewer.Move.row">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:GoViewer.Move.col">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:GoViewer.Move.black">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:GoViewer.Move.#ctor(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            </summary>
+            <param name="i">Cột i</param>
+            <param name="j">Cột J</param>
+            <param name="black">đen và trắng</param>
+        </member>
+        <member name="M:GoViewer.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:GoViewer.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:GoViewer.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:GoViewer.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
