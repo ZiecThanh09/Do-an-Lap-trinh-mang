@@ -1,0 +1,51 @@
+D:\folder của Hải\DangNhap\DangNhap\bin\Debug\DangNhap.exe.config
+D:\folder của Hải\DangNhap\DangNhap\bin\Debug\DangNhap.exe
+D:\folder của Hải\DangNhap\DangNhap\bin\Debug\DangNhap.pdb
+D:\folder của Hải\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.AssemblyReference.cache
+D:\folder của Hải\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.SuggestedBindingRedirects.cache
+D:\folder của Hải\DangNhap\DangNhap\obj\Debug\DangNhap.DangNhap.resources
+D:\folder của Hải\DangNhap\DangNhap\obj\Debug\DangNhap.Properties.Resources.resources
+D:\folder của Hải\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.GenerateResource.cache
+D:\folder của Hải\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.CoreCompileInputs.cache
+D:\folder của Hải\DangNhap\DangNhap\obj\Debug\DangNhap.exe
+D:\folder của Hải\DangNhap\DangNhap\obj\Debug\DangNhap.pdb
+D:\folder của Hải\DangNhap\DangNhap\obj\Debug\DangNhap.DangKi.resources
+D:\folder của Hải\DangNhap\DangNhap\bin\Debug\DocumentFormat.OpenXml.dll
+D:\folder của Hải\DangNhap\DangNhap\bin\Debug\DocumentFormat.OpenXml.xml
+D:\folder của Hải\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.CopyComplete
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\bin\Debug\DangNhap.exe.config
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\bin\Debug\DangNhap.exe
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\bin\Debug\DangNhap.pdb
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\bin\Debug\DocumentFormat.OpenXml.dll
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\bin\Debug\DocumentFormat.OpenXml.xml
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.AssemblyReference.cache
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.SuggestedBindingRedirects.cache
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.DangKi.resources
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.DangNhap.resources
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.Properties.Resources.resources
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.GenerateResource.cache
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.CoreCompileInputs.cache
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.CopyComplete
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.exe
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.pdb
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.Menu.resources
+D:\folder của Hải, đừng xóa !!!\DangNhap\DangNhap\obj\Debug\DangNhap.Server.resources
+D:\hai\DangNhap\DangNhap\bin\Debug\DangNhap.exe.config
+D:\hai\DangNhap\DangNhap\bin\Debug\DangNhap.exe
+D:\hai\DangNhap\DangNhap\bin\Debug\DangNhap.pdb
+D:\hai\DangNhap\DangNhap\bin\Debug\DocumentFormat.OpenXml.dll
+D:\hai\DangNhap\DangNhap\bin\Debug\DocumentFormat.OpenXml.xml
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.AssemblyReference.cache
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.SuggestedBindingRedirects.cache
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.DangKi.resources
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.Menu.resources
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.Properties.Resources.resources
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.Server.resources
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.GenerateResource.cache
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.CoreCompileInputs.cache
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.CopyComplete
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.exe
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.pdb
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.TaoPhong.resources
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.VaoGame.resources
+D:\hai\DangNhap\DangNhap\obj\Debug\DangNhap.DangNhap.resources
