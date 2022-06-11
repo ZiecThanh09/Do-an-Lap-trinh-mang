@@ -41,10 +41,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.controlPanel = new System.Windows.Forms.Panel();
             this.btnJudge = new System.Windows.Forms.Button();
-            this.btnMode = new System.Windows.Forms.Button();
-            this.btnEnd = new System.Windows.Forms.Button();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.btnPrevious = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.timerView = new System.Windows.Forms.Timer(this.components);
             this.menu.SuspendLayout();
@@ -106,7 +102,6 @@
             // 
             this.statPanel.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.statPanel.Controls.Add(this.lbltime);
-            this.statPanel.Controls.Add(this.lblResult);
             this.statPanel.Controls.Add(this.label1);
             this.statPanel.Dock = System.Windows.Forms.DockStyle.Right;
             this.statPanel.Location = new System.Drawing.Point(990, 32);
@@ -130,12 +125,11 @@
             this.lblResult.AutoSize = true;
             this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblResult.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblResult.Location = new System.Drawing.Point(23, 372);
+            this.lblResult.Location = new System.Drawing.Point(201, 195);
             this.lblResult.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(76, 26);
+            this.lblResult.Size = new System.Drawing.Size(0, 26);
             this.lblResult.TabIndex = 2;
-            this.lblResult.Text = "label3";
             this.lblResult.Visible = false;
             this.lblResult.Click += new System.EventHandler(this.lblResult_Click);
             // 
@@ -153,10 +147,6 @@
             // 
             this.controlPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.controlPanel.Controls.Add(this.btnJudge);
-            this.controlPanel.Controls.Add(this.btnMode);
-            this.controlPanel.Controls.Add(this.btnEnd);
-            this.controlPanel.Controls.Add(this.btnNext);
-            this.controlPanel.Controls.Add(this.btnPrevious);
             this.controlPanel.Controls.Add(this.btnStart);
             this.controlPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.controlPanel.Location = new System.Drawing.Point(0, 620);
@@ -176,54 +166,6 @@
             this.btnJudge.Text = "Điểm";
             this.btnJudge.UseVisualStyleBackColor = true;
             this.btnJudge.Click += new System.EventHandler(this.btnJudge_Click);
-            // 
-            // btnMode
-            // 
-            this.btnMode.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnMode.Location = new System.Drawing.Point(759, 29);
-            this.btnMode.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.btnMode.Name = "btnMode";
-            this.btnMode.Size = new System.Drawing.Size(132, 30);
-            this.btnMode.TabIndex = 4;
-            this.btnMode.Text = "Điểm tự động";
-            this.btnMode.UseVisualStyleBackColor = true;
-            this.btnMode.Click += new System.EventHandler(this.btnMode_Click);
-            // 
-            // btnEnd
-            // 
-            this.btnEnd.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnEnd.Location = new System.Drawing.Point(445, 29);
-            this.btnEnd.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.btnEnd.Name = "btnEnd";
-            this.btnEnd.Size = new System.Drawing.Size(101, 30);
-            this.btnEnd.TabIndex = 3;
-            this.btnEnd.Text = "Hoàn thành";
-            this.btnEnd.UseVisualStyleBackColor = true;
-            this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
-            // 
-            // btnNext
-            // 
-            this.btnNext.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnNext.Location = new System.Drawing.Point(289, 29);
-            this.btnNext.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(101, 30);
-            this.btnNext.TabIndex = 2;
-            this.btnNext.Text = "Bước tiếp theo";
-            this.btnNext.UseVisualStyleBackColor = true;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
-            // 
-            // btnPrevious
-            // 
-            this.btnPrevious.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnPrevious.Location = new System.Drawing.Point(135, 29);
-            this.btnPrevious.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.btnPrevious.Name = "btnPrevious";
-            this.btnPrevious.Size = new System.Drawing.Size(101, 30);
-            this.btnPrevious.TabIndex = 1;
-            this.btnPrevious.Text = "Trước";
-            this.btnPrevious.UseVisualStyleBackColor = true;
-            this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
             // 
             // btnStart
             // 
@@ -248,6 +190,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1218, 734);
             this.Controls.Add(this.controlPanel);
+            this.Controls.Add(this.lblResult);
             this.Controls.Add(this.statPanel);
             this.Controls.Add(this.menu);
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
@@ -277,10 +220,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel controlPanel;
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.Button btnEnd;
-        private System.Windows.Forms.Button btnNext;
-        private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.Button btnMode;
         private System.Windows.Forms.Timer timerView;
         private System.Windows.Forms.Button btnJudge;
         private System.Windows.Forms.Label lblResult;

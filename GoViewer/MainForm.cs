@@ -265,33 +265,33 @@ namespace GoViewer
         /// <param name="e"></param>
         private void btnMode_Click(object sender, EventArgs e)
         {
-            
-            moves = new List<Move>(board.Moves);
-            board.clear();
-            timerCount = 0;
-            timerView.Enabled = true;
-            drawImage();
-            boardPanel.Refresh();
-            
         }
+        //    moves = new List<Move>(board.Moves);// điểm tự động
+        //    board.clear();
+        //    timerCount = 0;
+        //    timerView.Enabled = true;
+        //    drawImage();
+        //    boardPanel.Refresh();
+            
+        //}
 
         /// <summary>
         /// Hành động sự kiện hẹn giờ
         private System.Windows.Forms.Timer aTimer;
         private int counter = 0;
-        private void aTimer_Tick(object sender, EventArgs e)
+        //private void aTimer_Tick(object sender, EventArgs e)
 
-        {
+        //{
 
-            counter--;
+        //    counter--;
 
-            if (counter == 0)
+        //    if (counter == 0)
 
-                aTimer.Stop();
-            else
-            label1.Text = counter.ToString();
+        //        aTimer.Stop();
+        //    else
+        //    label1.Text = counter.ToString();
 
-        }
+        //}
 
         /// </summary>
         /// <param name="sender"></param>
@@ -406,11 +406,11 @@ namespace GoViewer
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void btnPrevious_Click(object sender, EventArgs e)
-        {
-            board.Previous();
-            drawImage();
-            boardPanel.Refresh();
-        }
+        { }
+        //    board.Previous(); code btn trước
+        //    drawImage();
+        //    boardPanel.Refresh();
+        //}
 
         /// <summary>
         /// Hành động nút tiếp theo
@@ -418,11 +418,11 @@ namespace GoViewer
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void btnNext_Click(object sender, EventArgs e)
-        {
-            board.Next();
-            drawImage();
-            boardPanel.Refresh();
-        }
+        { }
+        //    board.Next();     code btn tiếp theo
+        //    drawImage();
+        //    boardPanel.Refresh();
+        //}
 
         /// <summary>
         /// Nút bắt đầu hoạt động
@@ -435,50 +435,50 @@ namespace GoViewer
             board.GotoStart();
             drawImage();
             boardPanel.Refresh();
-            timeout();
+            //timeout();
         }
-        private void timeout()
-        {
-            if (counter == 0)
-            {
-                counter = 30;
-                aTimer = new System.Windows.Forms.Timer();
+        //private void timeout()        code
+        //{
+        //    if (counter == 0)
+        //    {
+        //        counter = 30;
+        //        aTimer = new System.Windows.Forms.Timer();
 
-                aTimer.Tick += new EventHandler(aTimer_Tick);
+        //        aTimer.Tick += new EventHandler(aTimer_Tick);
 
-                aTimer.Interval = 1000; // 1 second
-                aTimer.Start();
-            }
-            else
-            {
-                counter = 30;
-                aTimer.Start();
-            }
-        }
+        //        aTimer.Interval = 1000; // 1 second
+        //        aTimer.Start();
+        //    }
+        //    else
+        //    {
+        //        counter = 30;
+        //        aTimer.Start();
+        //    }
+        //}
         /// <summary>
         /// nút kết thúc hành động
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void btnEnd_Click(object sender, EventArgs e)
-        {
-            DisplayEnd();
-        }
+        { }
+        //    DisplayEnd();
+        //}
 
         private void btnJudge_Click(object sender, EventArgs e)
         {
             if (!countingMode)
             {
                 countingMode = true;
-                lblResult.Text = "Xác nhận bên trắng thua";
+                lblResult.Text = "Xác nhận bên đen thua (nhấn tiếp để xem điểm)";
                 lblResult.Visible = true;
-                btnJudge.Text = "Xác nhận bên đen thua";
+                btnJudge.Text = "Xác nhận bên trắng thua (nhấn tiếp để xem điểm)";
                 board.initGridCount();
             }
             else
             {
                 JudgeAndRefresh();
-                lblResult.Text = (board.NoOfBlackWin - 6.5 > 0 ? "Đen" : "Trắng") + " chiến thắng" + Math.Abs((int)(((float)board.NoOfBlackWin) - 6.5)) + ".5điểm";
+                lblResult.Text = (board.NoOfBlackWin - 6.5 > 0 ? "Đen" : "Trắng") + " chiến thắng với " + Math.Abs((int)(((float)board.NoOfBlackWin) - 6.5)) + ".5 điểm";
                 lblResult.Visible = true;
                 btnJudge.Text = "Điểm";
                 countingMode = false;

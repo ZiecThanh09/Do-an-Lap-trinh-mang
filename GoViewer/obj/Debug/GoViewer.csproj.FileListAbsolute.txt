@@ -22,3 +22,15 @@ C:\Users\DELL\OneDrive\Desktop\codegamego\GoViewer\obj\Debug\GoViewer.csproj.Gen
 C:\Users\DELL\OneDrive\Desktop\codegamego\GoViewer\obj\Debug\GoViewer.csproj.CoreCompileInputs.cache
 C:\Users\DELL\OneDrive\Desktop\codegamego\GoViewer\obj\Debug\GoViewer.exe
 C:\Users\DELL\OneDrive\Desktop\codegamego\GoViewer\obj\Debug\GoViewer.pdb
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\bin\Debug\GoViewer.exe.config
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\bin\Debug\GoViewer.XML
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\bin\Debug\GoViewer.exe
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\bin\Debug\GoViewer.pdb
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\obj\Debug\GoViewer.csproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\obj\Debug\GoViewer.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\obj\Debug\GoViewer.MainForm.resources
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\obj\Debug\GoViewer.Properties.Resources.resources
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\obj\Debug\GoViewer.csproj.GenerateResource.cache
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\obj\Debug\GoViewer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\obj\Debug\GoViewer.exe
+C:\Users\DELL\OneDrive\Desktop\Eng\codego\Do-an-Lap-trinh-mang\GoViewer\obj\Debug\GoViewer.pdb
