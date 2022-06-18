@@ -1,0 +1,16 @@
+D:\winform\Game Caro\General\bin\Debug\General.dll
+D:\winform\Game Caro\General\bin\Debug\General.pdb
+D:\winform\Game Caro\General\obj\Debug\ResolveAssemblyReference.cache
+D:\winform\Game Caro\General\obj\Debug\General.dll
+D:\winform\Game Caro\General\obj\Debug\General.pdb
+D:\Java\Game Caro\General\bin\Debug\General.dll
+D:\Java\Game Caro\General\bin\Debug\General.pdb
+D:\Java\Game Caro\General\obj\Debug\General.dll
+D:\Java\Game Caro\General\obj\Debug\General.pdb
+D:\Java\Game Caro\General\obj\Debug\General.csprojResolveAssemblyReference.cache
+D:\hai\gameCaro\Game Caro\General\bin\Debug\General.dll
+D:\hai\gameCaro\Game Caro\General\bin\Debug\General.pdb
+D:\hai\gameCaro\Game Caro\General\obj\Debug\General.csproj.AssemblyReference.cache
+D:\hai\gameCaro\Game Caro\General\obj\Debug\General.csproj.CoreCompileInputs.cache
+D:\hai\gameCaro\Game Caro\General\obj\Debug\General.dll
+D:\hai\gameCaro\Game Caro\General\obj\Debug\General.pdb
